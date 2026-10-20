@@ -14,19 +14,19 @@
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
-    front-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
     background-color: var(--cor-principal);
     color: var(--cor-clara);
-    text-aling: center;
+    text-align: center;
     padding: 30px;
 }
 
 h1 {
-    front-size: 36px;
+    font-size: 36px;
 
 
 }
@@ -36,7 +36,7 @@ h2 {
 }
 
 p {
-    front-size: 18px;
+    font-size: 18px;
     line-height: 1.6;
 }
 
@@ -83,16 +83,16 @@ figcaption {
     margin-top: 8px;
 }
 
-card {
+.card {
     background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid var(--cor-principal)
+    border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
     flex: 1 1 300px;
 }
 
-card h3 {
+.card h3 {
     margin-top: 0;
 }
 
@@ -122,7 +122,4 @@ button:hover {
     display: block;
     width: fit-content;
     margin: 20px auto;
-}
-.galeria {
-    display: flex;
 }
