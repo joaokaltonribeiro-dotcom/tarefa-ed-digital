@@ -4,11 +4,11 @@
     --cor-principal: #35008b;
     --cor-secundaria: #3955af;
     --cor-hover: #bd117b;
-    --superficie: #f4f1ea;
-    --cor-card: #10fff3;
+    --superficie: #b8b7b6;
+    --cor-card: #ffffff;
     --cor-legenda: #ff0b0b;
     --cor-clara: hsl(288, 100%, 75%), 100%, 75%;
-    --cor-rodape: #dda01388;
+    --cor-rodape: #0a0a0a88;
 }
 .tema-escuro {
     --cor-fundo: #121212;
